@@ -48,7 +48,12 @@ function tocaSomFunk(){
 }
 document.querySelector('.tecla_funk').onclick = tocaSomFunk;
 
-function tocaSomSertanejo(){
-    document.querySelector('#som_tecla_sertanejo').play();
+function tocaSomBoombap(){
+    document.querySelector('#som_tecla_boombap').play();
 }
-document.querySelector('.tecla_sertanejo').onclick = tocaSomSertanejo;
+document.querySelector('.tecla_boombap').onclick = tocaSomBoombap;
+
+function tocaSomPop(){
+    document.querySelector('#som_tecla_pop').play();
+}
+document.querySelector('.tecla.pop').onclick = tocaSomPop;
