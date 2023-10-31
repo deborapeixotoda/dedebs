@@ -47,3 +47,8 @@ function tocaSomFunk(){
     document.querySelector('#som_tecla_funk').play();
 }
 document.querySelector('.tecla_funk').onclick = tocaSomFunk;
+
+function tocaSomSertanejo(){
+    document.querySelector('#som_tecla_sertanejo').play();
+}
+document.querySelector('.tecla_sertanejo').onclick = tocaSomSertanejo;
